@@ -18,8 +18,8 @@ try:
         user=MYSQL_USER,
         password=MYSQL_PASSWORD,
         host='localhost',
-        database='monitoring_db',  # ✅ Correct database name
-        auth_plugin='mysql_native_password'  # ✅ Fix authentication issue
+        database='monitoring_db',  
+        auth_plugin='mysql_native_password'
     )
     
     cursor = conn.cursor()
