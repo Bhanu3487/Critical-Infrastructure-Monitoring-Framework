@@ -1,0 +1,6 @@
+{
+    "mysql_user": "root",
+    "mysql_password": "********",
+    "max_downtime": 3,
+    "alert_email": "your_email@example.com"
+}

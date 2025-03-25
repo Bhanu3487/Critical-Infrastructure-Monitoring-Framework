@@ -19,9 +19,14 @@ SELECT * FROM response_time_logs;
 EXIT;
 
 
-✅ Windows CMD:
+- Windows CMD:
 python log_to_db.py root your_password uptime "{\"status\": \"UP\", \"code\": 200}"
-✅ PowerShell:
+- PowerShell:
 python log_to_db.py root your_password uptime '{\"status\": \"UP\", \"code\": 200}'
-✅ Git Bash/Linux/macOS:
+- Git Bash/Linux/macOS:
 python log_to_db.py root your_password uptime '{"status": "UP"
+
+To implement a hybrid alert system, we need to:
+Write logs for real-time alerts.
+Store structured data in a database for analysis & dashboard.
+Check the database periodically to trigger alerts.
