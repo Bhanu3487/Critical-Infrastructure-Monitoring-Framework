@@ -14,8 +14,7 @@ if len(sys.argv) != 3:
 
 MYSQL_USER = sys.argv[1]
 MYSQL_PASSWORD = sys.argv[2]
-
-URL = "https://www.google.com/"
+URL = "https://iitgn.ac.in/"  # This can be read from a config file
 
 def log_to_db(check_name, result):
     """Logs monitoring results using log_to_db.py"""
@@ -29,14 +28,20 @@ def log_to_db(check_name, result):
         print(f"❌ Error executing log_to_db.py: {e}")
 
 def run_uptime_check():
-    result = check_uptime(URL)
-    print(f"✅ Uptime Check: {result}")
-    log_to_db("uptime", result)
+    try:
+        result = check_uptime(URL)
+        print(f"✅ Uptime Check: {result}")
+        log_to_db("uptime", result)
+    except Exception as e:
+        print(f"❌ Uptime Check Failed: {e}")
 
 def run_response_time_check():
-    result = check_response_time(URL)
-    print(f"✅ Response Time Check: {result}")
-    log_to_db("response_time", result)
+    try:
+        result = check_response_time(URL)
+        print(f"✅ Response Time Check: {result}")
+        log_to_db("response_time", result)
+    except Exception as e:
+        print(f"❌ Response Time Check Failed: {e}")
 
 # Schedule tasks
 schedule.every(1).seconds.do(run_uptime_check)
@@ -51,5 +56,4 @@ if __name__ == "__main__":
     scheduler_thread = threading.Thread(target=run_scheduler, daemon=True)
     scheduler_thread.start()
     
-    while True:
-        time.sleep(10)
+    scheduler_thread.join()  # Keeps the script running indefinitely
