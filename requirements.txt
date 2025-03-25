@@ -1,0 +1,3 @@
+pip install requests mysql-connector-python flask 
+pip install schedule
+pip install mysql-connector
