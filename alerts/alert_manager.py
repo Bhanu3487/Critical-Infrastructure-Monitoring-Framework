@@ -19,8 +19,8 @@ with open("alert_config.json") as f:
 
 MAX_DOWNTIME = config["max_downtime"]
 EMAIL_TO = config["alert_email"]
-EMAIL_FROM = "yourmonitor@example.com"
-EMAIL_PASSWORD = "your_email_password"
+EMAIL_FROM = "cimf.cs331@gmail.com"
+EMAIL_PASSWORD = "ProjectNotFound"
 
 def send_email_alert(subject, message):
     try:
