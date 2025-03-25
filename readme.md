@@ -1,9 +1,10 @@
-Start with requirements.txt then init_db5
-
+Start with requirements.txt then run init_db.py
 
 **Commands to RUN**
 python init_db.py your_mysql_username your_mysql_password
+
 python log_to_db.py your_mysql_username your_mysql_password uptime '{"status": "UP", "code": 200}'
+
 python monitor.py your_mysql_username your_mysql_password
 
 **MySQL setup**
