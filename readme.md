@@ -16,3 +16,11 @@ EXIT;
 **Commands to RUN**
 python init_db.py your_mysql_username your_mysql_password
 python monitor.py your_mysql_username your_mysql_password
+
+**cleanup mininet**
+sudo mn -c
+sudo pkill -9 -f ovs-testcontroller
+sudo ovs-testcontroller ptcp:6633 &
+sudo ovs-testcontroller ptcp:6633 > /dev/null 2>&1 &
+
+
