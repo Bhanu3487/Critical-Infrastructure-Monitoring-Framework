@@ -1,0 +1,91 @@
+{"timestamp": "2025-03-26T19:58:14.917299", "check": "DNS Resolution", "result": {"url": "http://10.0.0.1:9090", "domain": null, "resolved_ip": null, "status": "FAILED"}}
+{"timestamp": "2025-03-26T19:58:16.649060", "check": "uptime", "result": {"url": "http://10.0.0.1:9090", "status": "UP", "code": 200}}
+{"timestamp": "2025-03-26T19:58:16.649913", "check": "latency", "result": {"url": "http://10.0.0.1:9090", "ip": null, "avg_latency_ms": null, "packet_loss_percent": null, "status": "ERROR"}}
+{"timestamp": "2025-03-26T19:58:17.842391", "check": "response_time", "result": {"url": "http://10.0.0.1:9090", "response_time": 0.191636323928833, "status": "UP", "code": 200}}
+{"timestamp": "2025-03-26T19:58:19.208549", "check": "uptime", "result": {"url": "http://10.0.0.1:9090", "status": "UP", "code": 200}}
+{"timestamp": "2025-03-26T19:58:19.210718", "check": "latency", "result": {"url": "http://10.0.0.1:9090", "ip": null, "avg_latency_ms": null, "packet_loss_percent": null, "status": "ERROR"}}
+{"timestamp": "2025-03-26T19:58:20.402543", "check": "response_time", "result": {"url": "http://10.0.0.1:9090", "response_time": 0.18911457061767578, "status": "UP", "code": 200}}
+{"timestamp": "2025-03-26T19:58:20.616781", "check": "uptime", "result": {"url": "http://10.0.0.1:9090", "status": "UP", "code": 200}}
+{"timestamp": "2025-03-26T19:58:20.617497", "check": "latency", "result": {"url": "http://10.0.0.1:9090", "ip": null, "avg_latency_ms": null, "packet_loss_percent": null, "status": "ERROR"}}
+{"timestamp": "2025-03-26T19:58:26.631763", "check": "uptime", "result": {"url": "http://10.0.0.1:9090", "status": "DOWN", "code": null}}
+{"timestamp": "2025-03-26T19:58:26.632120", "check": "latency", "result": {"url": "http://10.0.0.1:9090", "ip": null, "avg_latency_ms": null, "packet_loss_percent": null, "status": "ERROR"}}
+{"timestamp": "2025-03-26T19:58:32.641811", "check": "response_time", "result": {"url": "http://10.0.0.1:9090", "response_time": null, "status": "DOWN", "code": null}}
+{"timestamp": "2025-03-26T19:58:37.655576", "check": "uptime", "result": {"url": "http://10.0.0.1:9090", "status": "DOWN", "code": null}}
+{"timestamp": "2025-03-26T19:58:37.657065", "check": "latency", "result": {"url": "http://10.0.0.1:9090", "ip": null, "avg_latency_ms": null, "packet_loss_percent": null, "status": "ERROR"}}
+{"timestamp": "2025-03-26T19:58:43.667695", "check": "response_time", "result": {"url": "http://10.0.0.1:9090", "response_time": null, "status": "DOWN", "code": null}}
+{"timestamp": "2025-03-26T19:58:48.674912", "check": "uptime", "result": {"url": "http://10.0.0.1:9090", "status": "DOWN", "code": null}}
+{"timestamp": "2025-03-26T19:58:48.675571", "check": "latency", "result": {"url": "http://10.0.0.1:9090", "ip": null, "avg_latency_ms": null, "packet_loss_percent": null, "status": "ERROR"}}
+{"timestamp": "2025-03-26T19:58:54.683459", "check": "response_time", "result": {"url": "http://10.0.0.1:9090", "response_time": null, "status": "DOWN", "code": null}}
+{"timestamp": "2025-03-26T19:59:36.498011", "check": "DNS Resolution", "result": {"url": "http://10.0.0.1:9090", "domain": null, "resolved_ip": null, "status": "FAILED"}}
+{"timestamp": "2025-03-26T19:59:37.723829", "check": "uptime", "result": {"url": "http://10.0.0.1:9090", "status": "UP", "code": 200}}
+{"timestamp": "2025-03-26T19:59:37.724100", "check": "latency", "result": {"url": "http://10.0.0.1:9090", "ip": null, "avg_latency_ms": null, "packet_loss_percent": null, "status": "ERROR"}}
+{"timestamp": "2025-03-26T19:59:39.371425", "check": "response_time", "result": {"url": "http://10.0.0.1:9090", "response_time": 0.6443476676940918, "status": "UP", "code": 200}}
+{"timestamp": "2025-03-26T19:59:39.605261", "check": "uptime", "result": {"url": "http://10.0.0.1:9090", "status": "UP", "code": 200}}
+{"timestamp": "2025-03-26T19:59:39.605873", "check": "latency", "result": {"url": "http://10.0.0.1:9090", "ip": null, "avg_latency_ms": null, "packet_loss_percent": null, "status": "ERROR"}}
+{"timestamp": "2025-03-26T19:59:40.947473", "check": "uptime", "result": {"url": "http://10.0.0.1:9090", "status": "UP", "code": 200}}
+{"timestamp": "2025-03-26T19:59:40.947660", "check": "latency", "result": {"url": "http://10.0.0.1:9090", "ip": null, "avg_latency_ms": null, "packet_loss_percent": null, "status": "ERROR"}}
+{"timestamp": "2025-03-26T19:59:42.181889", "check": "response_time", "result": {"url": "http://10.0.0.1:9090", "response_time": 0.2313680648803711, "status": "UP", "code": 200}}
+{"timestamp": "2025-03-26T19:59:42.387712", "check": "uptime", "result": {"url": "http://10.0.0.1:9090", "status": "UP", "code": 200}}
+{"timestamp": "2025-03-26T19:59:42.388260", "check": "latency", "result": {"url": "http://10.0.0.1:9090", "ip": null, "avg_latency_ms": null, "packet_loss_percent": null, "status": "ERROR"}}
+{"timestamp": "2025-03-26T19:59:43.605166", "check": "uptime", "result": {"url": "http://10.0.0.1:9090", "status": "UP", "code": 200}}
+{"timestamp": "2025-03-26T19:59:43.605344", "check": "latency", "result": {"url": "http://10.0.0.1:9090", "ip": null, "avg_latency_ms": null, "packet_loss_percent": null, "status": "ERROR"}}
+{"timestamp": "2025-03-26T19:59:44.826612", "check": "response_time", "result": {"url": "http://10.0.0.1:9090", "response_time": 0.22049593925476074, "status": "UP", "code": 200}}
+{"timestamp": "2025-03-26T19:59:45.584805", "check": "uptime", "result": {"url": "http://10.0.0.1:9090", "status": "UP", "code": 200}}
+{"timestamp": "2025-03-26T19:59:45.586469", "check": "latency", "result": {"url": "http://10.0.0.1:9090", "ip": null, "avg_latency_ms": null, "packet_loss_percent": null, "status": "ERROR"}}
+{"timestamp": "2025-03-26T19:59:47.214299", "check": "uptime", "result": {"url": "http://10.0.0.1:9090", "status": "UP", "code": 200}}
+{"timestamp": "2025-03-26T19:59:47.215443", "check": "latency", "result": {"url": "http://10.0.0.1:9090", "ip": null, "avg_latency_ms": null, "packet_loss_percent": null, "status": "ERROR"}}
+{"timestamp": "2025-03-26T19:59:49.228571", "check": "response_time", "result": {"url": "http://10.0.0.1:9090", "response_time": 1.0102965831756592, "status": "UP", "code": 200}}
+{"timestamp": "2025-03-26T19:59:49.433903", "check": "uptime", "result": {"url": "http://10.0.0.1:9090", "status": "UP", "code": 200}}
+{"timestamp": "2025-03-26T19:59:49.434609", "check": "latency", "result": {"url": "http://10.0.0.1:9090", "ip": null, "avg_latency_ms": null, "packet_loss_percent": null, "status": "ERROR"}}
+{"timestamp": "2025-03-26T19:59:50.641161", "check": "uptime", "result": {"url": "http://10.0.0.1:9090", "status": "UP", "code": 200}}
+{"timestamp": "2025-03-26T19:59:50.641952", "check": "latency", "result": {"url": "http://10.0.0.1:9090", "ip": null, "avg_latency_ms": null, "packet_loss_percent": null, "status": "ERROR"}}
+{"timestamp": "2025-03-26T19:59:51.852616", "check": "response_time", "result": {"url": "http://10.0.0.1:9090", "response_time": 0.20835041999816895, "status": "UP", "code": 200}}
+{"timestamp": "2025-03-26T19:59:52.054664", "check": "uptime", "result": {"url": "http://10.0.0.1:9090", "status": "UP", "code": 200}}
+{"timestamp": "2025-03-26T19:59:52.054836", "check": "latency", "result": {"url": "http://10.0.0.1:9090", "ip": null, "avg_latency_ms": null, "packet_loss_percent": null, "status": "ERROR"}}
+{"timestamp": "2025-03-26T19:59:53.632947", "check": "uptime", "result": {"url": "http://10.0.0.1:9090", "status": "UP", "code": 200}}
+{"timestamp": "2025-03-26T19:59:53.633153", "check": "latency", "result": {"url": "http://10.0.0.1:9090", "ip": null, "avg_latency_ms": null, "packet_loss_percent": null, "status": "ERROR"}}
+{"timestamp": "2025-03-26T19:59:54.818702", "check": "response_time", "result": {"url": "http://10.0.0.1:9090", "response_time": 0.184067964553833, "status": "UP", "code": 200}}
+{"timestamp": "2025-03-26T19:59:55.003199", "check": "uptime", "result": {"url": "http://10.0.0.1:9090", "status": "UP", "code": 200}}
+{"timestamp": "2025-03-26T19:59:55.003605", "check": "latency", "result": {"url": "http://10.0.0.1:9090", "ip": null, "avg_latency_ms": null, "packet_loss_percent": null, "status": "ERROR"}}
+{"timestamp": "2025-03-26T19:59:58.635608", "check": "uptime", "result": {"url": "http://10.0.0.1:9090", "status": "UP", "code": 200}}
+{"timestamp": "2025-03-26T19:59:58.635877", "check": "latency", "result": {"url": "http://10.0.0.1:9090", "ip": null, "avg_latency_ms": null, "packet_loss_percent": null, "status": "ERROR"}}
+{"timestamp": "2025-03-26T20:00:00.262791", "check": "response_time", "result": {"url": "http://10.0.0.1:9090", "response_time": 0.6240007877349854, "status": "UP", "code": 200}}
+{"timestamp": "2025-03-26T20:00:00.453155", "check": "uptime", "result": {"url": "http://10.0.0.1:9090", "status": "UP", "code": 200}}
+{"timestamp": "2025-03-26T20:00:00.453552", "check": "latency", "result": {"url": "http://10.0.0.1:9090", "ip": null, "avg_latency_ms": null, "packet_loss_percent": null, "status": "ERROR"}}
+{"timestamp": "2025-03-26T20:00:01.641240", "check": "uptime", "result": {"url": "http://10.0.0.1:9090", "status": "UP", "code": 200}}
+{"timestamp": "2025-03-26T20:00:01.641586", "check": "latency", "result": {"url": "http://10.0.0.1:9090", "ip": null, "avg_latency_ms": null, "packet_loss_percent": null, "status": "ERROR"}}
+{"timestamp": "2025-03-26T20:00:02.845593", "check": "response_time", "result": {"url": "http://10.0.0.1:9090", "response_time": 0.20229649543762207, "status": "UP", "code": 200}}
+{"timestamp": "2025-03-26T20:00:03.046180", "check": "uptime", "result": {"url": "http://10.0.0.1:9090", "status": "UP", "code": 200}}
+{"timestamp": "2025-03-26T20:00:03.049392", "check": "latency", "result": {"url": "http://10.0.0.1:9090", "ip": null, "avg_latency_ms": null, "packet_loss_percent": null, "status": "ERROR"}}
+{"timestamp": "2025-03-26T20:00:04.743200", "check": "uptime", "result": {"url": "http://10.0.0.1:9090", "status": "UP", "code": 200}}
+{"timestamp": "2025-03-26T20:00:04.743585", "check": "latency", "result": {"url": "http://10.0.0.1:9090", "ip": null, "avg_latency_ms": null, "packet_loss_percent": null, "status": "ERROR"}}
+{"timestamp": "2025-03-26T20:00:08.006905", "check": "response_time", "result": {"url": "http://10.0.0.1:9090", "response_time": 2.2582459449768066, "status": "UP", "code": 200}}
+{"timestamp": "2025-03-26T20:00:08.667513", "check": "uptime", "result": {"url": "http://10.0.0.1:9090", "status": "UP", "code": 200}}
+{"timestamp": "2025-03-26T20:00:08.667952", "check": "latency", "result": {"url": "http://10.0.0.1:9090", "ip": null, "avg_latency_ms": null, "packet_loss_percent": null, "status": "ERROR"}}
+{"timestamp": "2025-03-26T20:00:09.934070", "check": "uptime", "result": {"url": "http://10.0.0.1:9090", "status": "UP", "code": 200}}
+{"timestamp": "2025-03-26T20:00:09.934555", "check": "latency", "result": {"url": "http://10.0.0.1:9090", "ip": null, "avg_latency_ms": null, "packet_loss_percent": null, "status": "ERROR"}}
+{"timestamp": "2025-03-26T20:00:15.948270", "check": "response_time", "result": {"url": "http://10.0.0.1:9090", "response_time": null, "status": "DOWN", "code": null}}
+{"timestamp": "2025-03-26T20:00:20.954974", "check": "uptime", "result": {"url": "http://10.0.0.1:9090", "status": "DOWN", "code": null}}
+{"timestamp": "2025-03-26T20:00:20.955333", "check": "latency", "result": {"url": "http://10.0.0.1:9090", "ip": null, "avg_latency_ms": null, "packet_loss_percent": null, "status": "ERROR"}}
+{"timestamp": "2025-03-26T20:00:26.962665", "check": "response_time", "result": {"url": "http://10.0.0.1:9090", "response_time": null, "status": "DOWN", "code": null}}
+{"timestamp": "2025-03-26T20:00:31.975289", "check": "uptime", "result": {"url": "http://10.0.0.1:9090", "status": "DOWN", "code": null}}
+{"timestamp": "2025-03-26T20:00:31.975654", "check": "latency", "result": {"url": "http://10.0.0.1:9090", "ip": null, "avg_latency_ms": null, "packet_loss_percent": null, "status": "ERROR"}}
+{"timestamp": "2025-03-26T20:00:37.988132", "check": "response_time", "result": {"url": "http://10.0.0.1:9090", "response_time": null, "status": "DOWN", "code": null}}
+{"timestamp": "2025-03-26T20:00:42.996870", "check": "uptime", "result": {"url": "http://10.0.0.1:9090", "status": "DOWN", "code": null}}
+{"timestamp": "2025-03-26T20:00:42.997450", "check": "latency", "result": {"url": "http://10.0.0.1:9090", "ip": null, "avg_latency_ms": null, "packet_loss_percent": null, "status": "ERROR"}}
+{"timestamp": "2025-03-26T20:00:49.005651", "check": "response_time", "result": {"url": "http://10.0.0.1:9090", "response_time": null, "status": "DOWN", "code": null}}
+{"timestamp": "2025-03-26T20:00:51.947837", "check": "uptime", "result": {"url": "http://10.0.0.1:9090", "status": "UP", "code": 200}}
+{"timestamp": "2025-03-26T20:00:51.948322", "check": "latency", "result": {"url": "http://10.0.0.1:9090", "ip": null, "avg_latency_ms": null, "packet_loss_percent": null, "status": "ERROR"}}
+{"timestamp": "2025-03-26T20:00:53.199134", "check": "response_time", "result": {"url": "http://10.0.0.1:9090", "response_time": 0.24697113037109375, "status": "UP", "code": 200}}
+{"timestamp": "2025-03-26T20:00:53.890500", "check": "uptime", "result": {"url": "http://10.0.0.1:9090", "status": "UP", "code": 200}}
+{"timestamp": "2025-03-26T20:00:53.890748", "check": "latency", "result": {"url": "http://10.0.0.1:9090", "ip": null, "avg_latency_ms": null, "packet_loss_percent": null, "status": "ERROR"}}
+{"timestamp": "2025-03-26T20:00:55.127973", "check": "uptime", "result": {"url": "http://10.0.0.1:9090", "status": "UP", "code": 200}}
+{"timestamp": "2025-03-26T20:00:55.128401", "check": "latency", "result": {"url": "http://10.0.0.1:9090", "ip": null, "avg_latency_ms": null, "packet_loss_percent": null, "status": "ERROR"}}
+{"timestamp": "2025-03-26T20:00:56.374396", "check": "response_time", "result": {"url": "http://10.0.0.1:9090", "response_time": 0.24386858940124512, "status": "UP", "code": 200}}
+{"timestamp": "2025-03-26T20:00:58.039039", "check": "uptime", "result": {"url": "http://10.0.0.1:9090", "status": "UP", "code": 200}}
+{"timestamp": "2025-03-26T20:00:58.040287", "check": "latency", "result": {"url": "http://10.0.0.1:9090", "ip": null, "avg_latency_ms": null, "packet_loss_percent": null, "status": "ERROR"}}
+{"timestamp": "2025-03-26T20:01:00.265064", "check": "response_time", "result": {"url": "http://10.0.0.1:9090", "response_time": 1.222240686416626, "status": "UP", "code": 200}}
+{"timestamp": "2025-03-26T20:01:00.916204", "check": "uptime", "result": {"url": "http://10.0.0.1:9090", "status": "UP", "code": 200}}
+{"timestamp": "2025-03-26T20:01:00.916541", "check": "latency", "result": {"url": "http://10.0.0.1:9090", "ip": null, "avg_latency_ms": null, "packet_loss_percent": null, "status": "ERROR"}}
+{"timestamp": "2025-03-26T20:01:02.539701", "check": "uptime", "result": {"url": "http://10.0.0.1:9090", "status": "UP", "code": 200}}
+{"timestamp": "2025-03-26T20:01:02.539946", "check": "latency", "result": {"url": "http://10.0.0.1:9090", "ip": null, "avg_latency_ms": null, "packet_loss_percent": null, "status": "ERROR"}}
