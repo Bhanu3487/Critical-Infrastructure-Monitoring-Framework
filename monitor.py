@@ -7,6 +7,8 @@ import sys
 from datetime import datetime
 from scripts.uptime import check_uptime
 from scripts.responsetime import check_response_time
+from scripts.latency_check import check_latency_packet_loss
+from scripts.DNS_resolution_check import check_dns_resolution
 
 # Ensure correct arguments
 if len(sys.argv) != 2:
@@ -45,8 +47,28 @@ def run_response_time_check():
     except Exception as e:
         print(f"❌ Response Time Check Failed: {e}")
 
+def run_latency_check():
+    try:
+        result = check_latency_packet_loss(WEB_PORTAL_URL)
+        print(f"✅ Latency Check ({WEB_PORTAL_URL}): {result}")
+        log_to_file("latency", result)
+    except Exception as e:
+        print(f"❌ Latency Check Failed: {e}")
+
+def run_dns_resolution():
+    try:
+        result = check_dns_resolution(WEB_PORTAL_URL)
+        print(f"✅ DNS Resolution Check ({WEB_PORTAL_URL}): {result}")
+        log_to_file("DNS Resolution", result)
+    except Exception as e:
+        print(f"❌ DNS Resolution Check Failed: {e}")
+
+# Run DNS resolution check only once before starting the scheduler
+run_dns_resolution()
+
 # Schedule tasks
 schedule.every(1).seconds.do(run_uptime_check)
+schedule.every(1).seconds.do(run_latency_check)
 schedule.every(2).seconds.do(run_response_time_check)
 
 def run_scheduler():

@@ -1,6 +1,0 @@
-{
-    "mysql_user": "root",
-    "mysql_password": "********",
-    "max_downtime": 3,
-    "alert_email": "cimf.cs331@gmail.com"
-}
