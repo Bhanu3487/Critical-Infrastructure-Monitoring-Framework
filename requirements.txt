@@ -1,5 +1,5 @@
-requests 
-mysql-connector-python 
-flask 
+requests
+mysql-connector-python
+flask
 schedule
 mysql-connector

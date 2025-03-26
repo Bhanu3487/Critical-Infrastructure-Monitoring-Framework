@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {"timestamp": "2025-03-26T19:58:14.917299", "check": "DNS Resolution", "result": {"url": "http://10.0.0.1:9090", "domain": null, "resolved_ip": null, "status": "FAILED"}}
 {"timestamp": "2025-03-26T19:58:16.649060", "check": "uptime", "result": {"url": "http://10.0.0.1:9090", "status": "UP", "code": 200}}
 {"timestamp": "2025-03-26T19:58:16.649913", "check": "latency", "result": {"url": "http://10.0.0.1:9090", "ip": null, "avg_latency_ms": null, "packet_loss_percent": null, "status": "ERROR"}}
@@ -89,3 +90,4 @@
 {"timestamp": "2025-03-26T20:01:00.916541", "check": "latency", "result": {"url": "http://10.0.0.1:9090", "ip": null, "avg_latency_ms": null, "packet_loss_percent": null, "status": "ERROR"}}
 {"timestamp": "2025-03-26T20:01:02.539701", "check": "uptime", "result": {"url": "http://10.0.0.1:9090", "status": "UP", "code": 200}}
 {"timestamp": "2025-03-26T20:01:02.539946", "check": "latency", "result": {"url": "http://10.0.0.1:9090", "ip": null, "avg_latency_ms": null, "packet_loss_percent": null, "status": "ERROR"}}
+

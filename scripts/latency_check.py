@@ -74,3 +74,5 @@ if __name__ == "__main__":
 
     website_url = sys.argv[1]
     print(check_latency_packet_loss(website_url))
+
+

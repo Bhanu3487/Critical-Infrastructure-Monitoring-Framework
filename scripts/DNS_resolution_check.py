@@ -13,6 +13,7 @@ def check_dns_resolution(url):
 
         # Check if the resolved IP is local/loopback
         if ip_address == "127.0.0.1" or ipaddress.ip_address(ip_address).is_private:
+
             print(f"DNS Resolution Check: {domain} resolved to {ip_address}, but is NOT a public IP")  # Debug print
             return {"url": url, "domain": domain, "resolved_ip": ip_address, "status": "UNRESOLVED"}
 
@@ -20,6 +21,7 @@ def check_dns_resolution(url):
         try:
             socket.create_connection((ip_address, 80), timeout=5)  # Try connecting to port 80 (HTTP)
             status = "REACHABLE"
+
             print(f"DNS Resolution & Connectivity Check: {domain} resolved to {ip_address} and is REACHABLE")  # Debug print
         except (socket.timeout, ConnectionRefusedError):
             status = "UNREACHABLE"
@@ -28,6 +30,7 @@ def check_dns_resolution(url):
         return {"url": url, "domain": domain, "resolved_ip": ip_address, "status": status}
     
     except (socket.gaierror, ValueError):
+
         print(f"DNS Resolution Failed: Could not resolve {url}")  # Debug print
         return {"url": url, "domain": None, "resolved_ip": None, "status": "FAILED"}
 
@@ -39,3 +42,4 @@ if __name__ == "__main__":
 
     web_portal_url = sys.argv[1]
     print(check_dns_resolution(web_portal_url))
+
