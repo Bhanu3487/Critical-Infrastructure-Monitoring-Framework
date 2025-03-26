@@ -1,9 +1,16 @@
 import subprocess
 import json
+import sys
+
+# Ensure correct usage
+if len(sys.argv) != 3:
+    print("Usage: python process_logs.py <MYSQL_USER> <MYSQL_PASSWORD>")
+    sys.exit(1)
+
+MYSQL_USER = sys.argv[1]
+MYSQL_PASSWORD = sys.argv[2]
 
 LOG_FILE = 'logs/monitor.log'
-MYSQL_USER = 'root'
-MYSQL_PASSWORD = 'root'
 LOG_TO_DB_SCRIPT = 'scripts/log_to_db.py'
 
 # Read log file
@@ -33,3 +40,4 @@ for log in logs:
         print(f"❌ Failed to log {check_name} data to the database: {e}")
 
 print("✅ All logs processed.")
+
