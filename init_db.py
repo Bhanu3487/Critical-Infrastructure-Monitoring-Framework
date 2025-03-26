@@ -42,6 +42,43 @@ def create_tables(user, password):
     )
     """)
 
+    # Table for latency logs
+    cursor.execute("""
+    CREATE TABLE IF NOT EXISTS latency_logs (
+        id INT AUTO_INCREMENT PRIMARY KEY,
+        timestamp DATETIME DEFAULT CURRENT_TIMESTAMP,
+        url VARCHAR(255),
+        ip VARCHAR(45),
+        avg_latency_ms FLOAT,
+        packet_loss_percent INT,
+        status VARCHAR(20)
+    )
+    """)
+
+    # Table for DNS resolution logs
+    cursor.execute("""
+    CREATE TABLE IF NOT EXISTS dns_resolution_logs (
+        id INT AUTO_INCREMENT PRIMARY KEY,
+        timestamp DATETIME DEFAULT CURRENT_TIMESTAMP,
+        url VARCHAR(255),
+        domain VARCHAR(255),
+        resolved_ip VARCHAR(45),
+        status VARCHAR(20)
+    )
+    """)
+
+    # Table for tracking last processed timestamp
+    cursor.execute("""
+    CREATE TABLE IF NOT EXISTS last_processed (
+        id INT PRIMARY KEY DEFAULT 1,
+        last_checked DATETIME(6) DEFAULT '1970-01-01 00:00:00.000000' ON UPDATE CURRENT_TIMESTAMP(6)
+    )
+    """)
+
+
+    # Initialize the last processed timestamp if not exists
+    cursor.execute("INSERT IGNORE INTO last_processed (id) VALUES (1)")
+
     conn.commit()
     conn.close()
 

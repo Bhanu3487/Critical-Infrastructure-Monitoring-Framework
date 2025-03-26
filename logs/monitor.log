@@ -1,142 +1,38 @@
-Sun Mar 16 14:01:41 2025 - uptime: {"status": "DOWN", "code": null}
-Sun Mar 16 14:01:42 2025 - response_time: {"status": "DOWN", "response_time": null}
-Sun Mar 16 14:01:42 2025 - uptime: {"status": "DOWN", "code": null}
-Sun Mar 16 14:01:43 2025 - uptime: {"status": "DOWN", "code": null}
-Sun Mar 16 14:01:44 2025 - response_time: {"status": "DOWN", "response_time": null}
-Sun Mar 16 14:01:44 2025 - uptime: {"status": "DOWN", "code": null}
-Sun Mar 16 14:01:45 2025 - uptime: {"status": "DOWN", "code": null}
-Sun Mar 16 14:01:46 2025 - response_time: {"status": "DOWN", "response_time": null}
-Sun Mar 16 14:01:46 2025 - uptime: {"status": "DOWN", "code": null}
-Sun Mar 16 14:01:47 2025 - uptime: {"status": "DOWN", "code": null}
-Sun Mar 16 14:01:48 2025 - response_time: {"status": "DOWN", "response_time": null}
-Sun Mar 16 14:01:48 2025 - uptime: {"status": "DOWN", "code": null}
-Sun Mar 16 14:01:49 2025 - uptime: {"status": "DOWN", "code": null}
-Sun Mar 16 14:01:50 2025 - response_time: {"status": "DOWN", "response_time": null}
-Sun Mar 16 14:01:50 2025 - uptime: {"status": "DOWN", "code": null}
-Sun Mar 16 14:01:51 2025 - uptime: {"status": "DOWN", "code": null}
-Sun Mar 16 14:01:52 2025 - response_time: {"status": "DOWN", "response_time": null}
-Sun Mar 16 14:01:52 2025 - uptime: {"status": "DOWN", "code": null}
-Sun Mar 16 14:01:53 2025 - uptime: {"status": "DOWN", "code": null}
-Sun Mar 16 14:01:54 2025 - response_time: {"status": "DOWN", "response_time": null}
-Sun Mar 16 14:01:54 2025 - uptime: {"status": "DOWN", "code": null}
-Sun Mar 16 14:01:55 2025 - uptime: {"status": "DOWN", "code": null}
-Sun Mar 16 14:01:56 2025 - response_time: {"status": "DOWN", "response_time": null}
-Sun Mar 16 14:01:56 2025 - uptime: {"status": "DOWN", "code": null}
-Sun Mar 16 14:01:57 2025 - uptime: {"status": "DOWN", "code": null}
-Sun Mar 16 14:01:58 2025 - response_time: {"status": "DOWN", "response_time": null}
-Sun Mar 16 14:01:58 2025 - uptime: {"status": "DOWN", "code": null}
-Sun Mar 16 14:01:59 2025 - uptime: {"status": "DOWN", "code": null}
-Sun Mar 16 14:02:00 2025 - response_time: {"status": "DOWN", "response_time": null}
-Sun Mar 16 14:02:00 2025 - uptime: {"status": "DOWN", "code": null}
-Sun Mar 16 14:02:01 2025 - uptime: {"status": "DOWN", "code": null}
-Sun Mar 16 14:02:02 2025 - response_time: {"status": "DOWN", "response_time": null}
-Sun Mar 16 14:02:02 2025 - uptime: {"status": "DOWN", "code": null}
-Sun Mar 16 14:02:03 2025 - uptime: {"status": "DOWN", "code": null}
-Sun Mar 16 14:02:04 2025 - response_time: {"status": "DOWN", "response_time": null}
-Sun Mar 16 14:02:04 2025 - uptime: {"status": "DOWN", "code": null}
-Sun Mar 16 14:02:05 2025 - uptime: {"status": "DOWN", "code": null}
-Sun Mar 16 14:02:06 2025 - response_time: {"status": "DOWN", "response_time": null}
-Sun Mar 16 14:02:06 2025 - uptime: {"status": "DOWN", "code": null}
-Sun Mar 16 14:02:07 2025 - uptime: {"status": "DOWN", "code": null}
-Sun Mar 16 14:02:08 2025 - response_time: {"status": "DOWN", "response_time": null}
-Sun Mar 16 14:02:08 2025 - uptime: {"status": "DOWN", "code": null}
-Sun Mar 16 14:02:09 2025 - uptime: {"status": "DOWN", "code": null}
-Sun Mar 16 14:02:10 2025 - response_time: {"status": "DOWN", "response_time": null}
-Sun Mar 16 14:02:10 2025 - uptime: {"status": "DOWN", "code": null}
-Sun Mar 16 14:02:11 2025 - uptime: {"status": "DOWN", "code": null}
-Sun Mar 16 14:02:12 2025 - response_time: {"status": "DOWN", "response_time": null}
-Sun Mar 16 14:02:12 2025 - uptime: {"status": "DOWN", "code": null}
-Sun Mar 16 14:02:13 2025 - uptime: {"status": "DOWN", "code": null}
-Sun Mar 16 14:02:14 2025 - response_time: {"status": "DOWN", "response_time": null}
-Sun Mar 16 14:02:14 2025 - uptime: {"status": "DOWN", "code": null}
-Sun Mar 16 14:02:15 2025 - uptime: {"status": "DOWN", "code": null}
-Sun Mar 16 14:02:16 2025 - response_time: {"status": "DOWN", "response_time": null}
-Sun Mar 16 14:02:16 2025 - uptime: {"status": "DOWN", "code": null}
-Sun Mar 16 14:02:17 2025 - uptime: {"status": "DOWN", "code": null}
-Sun Mar 16 14:02:18 2025 - response_time: {"status": "DOWN", "response_time": null}
-Sun Mar 16 14:02:18 2025 - uptime: {"status": "DOWN", "code": null}
-Sun Mar 16 14:02:19 2025 - uptime: {"status": "DOWN", "code": null}
-Sun Mar 16 14:02:20 2025 - response_time: {"status": "DOWN", "response_time": null}
-Sun Mar 16 14:02:20 2025 - uptime: {"status": "DOWN", "code": null}
-Sun Mar 16 14:02:21 2025 - uptime: {"status": "DOWN", "code": null}
-Sun Mar 16 14:02:22 2025 - response_time: {"status": "DOWN", "response_time": null}
-Sun Mar 16 14:02:22 2025 - uptime: {"status": "DOWN", "code": null}
-Sun Mar 16 14:02:23 2025 - uptime: {"status": "DOWN", "code": null}
-Sun Mar 16 14:02:24 2025 - response_time: {"status": "DOWN", "response_time": null}
-Sun Mar 16 14:02:24 2025 - uptime: {"status": "DOWN", "code": null}
-Sun Mar 16 14:02:25 2025 - uptime: {"status": "DOWN", "code": null}
-Sun Mar 16 14:02:26 2025 - response_time: {"status": "DOWN", "response_time": null}
-Sun Mar 16 14:02:26 2025 - uptime: {"status": "DOWN", "code": null}
-Sun Mar 16 14:02:27 2025 - uptime: {"status": "DOWN", "code": null}
-Sun Mar 16 14:02:28 2025 - response_time: {"status": "DOWN", "response_time": null}
-Sun Mar 16 14:02:28 2025 - uptime: {"status": "DOWN", "code": null}
-Sun Mar 16 14:02:29 2025 - uptime: {"status": "DOWN", "code": null}
-Sun Mar 16 14:02:30 2025 - response_time: {"status": "DOWN", "response_time": null}
-Sun Mar 16 14:02:30 2025 - uptime: {"status": "DOWN", "code": null}
-Sun Mar 16 14:02:31 2025 - uptime: {"status": "DOWN", "code": null}
-Sun Mar 16 14:02:32 2025 - response_time: {"status": "DOWN", "response_time": null}
-Sun Mar 16 14:02:32 2025 - uptime: {"status": "DOWN", "code": null}
-Sun Mar 16 14:02:33 2025 - uptime: {"status": "DOWN", "code": null}
-Sun Mar 16 14:02:34 2025 - response_time: {"status": "DOWN", "response_time": null}
-Sun Mar 16 14:02:34 2025 - uptime: {"status": "DOWN", "code": null}
-Sun Mar 16 14:02:35 2025 - uptime: {"status": "DOWN", "code": null}
-Sun Mar 16 14:02:36 2025 - response_time: {"status": "DOWN", "response_time": null}
-Sun Mar 16 14:02:36 2025 - uptime: {"status": "DOWN", "code": null}
-Sun Mar 16 14:02:37 2025 - uptime: {"status": "DOWN", "code": null}
-Sun Mar 16 14:02:38 2025 - response_time: {"status": "DOWN", "response_time": null}
-Sun Mar 16 14:02:38 2025 - uptime: {"status": "DOWN", "code": null}
-Sun Mar 16 14:02:39 2025 - uptime: {"status": "DOWN", "code": null}
-Sun Mar 16 14:02:40 2025 - response_time: {"status": "DOWN", "response_time": null}
-Sun Mar 16 14:02:40 2025 - uptime: {"status": "DOWN", "code": null}
-Sun Mar 16 14:02:41 2025 - uptime: {"status": "DOWN", "code": null}
-Sun Mar 16 14:02:42 2025 - response_time: {"status": "DOWN", "response_time": null}
-Sun Mar 16 14:02:42 2025 - uptime: {"status": "DOWN", "code": null}
-Sun Mar 16 14:02:43 2025 - uptime: {"status": "DOWN", "code": null}
-Sun Mar 16 14:02:44 2025 - response_time: {"status": "DOWN", "response_time": null}
-Sun Mar 16 14:02:44 2025 - uptime: {"status": "DOWN", "code": null}
-Sun Mar 16 14:02:45 2025 - uptime: {"status": "DOWN", "code": null}
-Sun Mar 16 14:02:46 2025 - response_time: {"status": "DOWN", "response_time": null}
-Sun Mar 16 14:02:46 2025 - uptime: {"status": "DOWN", "code": null}
-Sun Mar 16 14:02:47 2025 - uptime: {"status": "DOWN", "code": null}
-Sun Mar 16 14:02:48 2025 - response_time: {"status": "DOWN", "response_time": null}
-Sun Mar 16 14:02:48 2025 - uptime: {"status": "DOWN", "code": null}
-Sun Mar 16 14:02:49 2025 - uptime: {"status": "DOWN", "code": null}
-Sun Mar 16 14:02:50 2025 - response_time: {"status": "DOWN", "response_time": null}
-Sun Mar 16 14:02:50 2025 - uptime: {"status": "DOWN", "code": null}
-Sun Mar 16 14:02:51 2025 - uptime: {"status": "DOWN", "code": null}
-Sun Mar 16 14:02:52 2025 - response_time: {"status": "DOWN", "response_time": null}
-Sun Mar 16 14:02:52 2025 - uptime: {"status": "DOWN", "code": null}
-Sun Mar 16 14:02:53 2025 - uptime: {"status": "DOWN", "code": null}
-Sun Mar 16 14:02:54 2025 - response_time: {"status": "DOWN", "response_time": null}
-Sun Mar 16 14:02:54 2025 - uptime: {"status": "DOWN", "code": null}
-Sun Mar 16 14:02:55 2025 - uptime: {"status": "DOWN", "code": null}
-Sun Mar 16 14:02:56 2025 - response_time: {"status": "DOWN", "response_time": null}
-Sun Mar 16 14:02:56 2025 - uptime: {"status": "DOWN", "code": null}
-Sun Mar 16 14:02:57 2025 - uptime: {"status": "DOWN", "code": null}
-Sun Mar 16 14:02:58 2025 - response_time: {"status": "DOWN", "response_time": null}
-Sun Mar 16 14:02:58 2025 - uptime: {"status": "DOWN", "code": null}
-Sun Mar 16 14:06:58 2025 - uptime: {"status": "DOWN", "code": null}
-Sun Mar 16 14:06:59 2025 - response_time: {"status": "DOWN", "response_time": null}
-Sun Mar 16 14:06:59 2025 - uptime: {"status": "DOWN", "code": null}
-Sun Mar 16 14:07:00 2025 - uptime: {"status": "DOWN", "code": null}
-Sun Mar 16 14:07:01 2025 - response_time: {"status": "DOWN", "response_time": null}
-Sun Mar 16 14:07:01 2025 - uptime: {"status": "DOWN", "code": null}
-Sun Mar 16 14:07:02 2025 - uptime: {"status": "DOWN", "code": null}
-Sun Mar 16 14:07:03 2025 - response_time: {"status": "DOWN", "response_time": null}
-Sun Mar 16 14:07:03 2025 - uptime: {"status": "DOWN", "code": null}
-Sun Mar 16 14:09:14 2025 - uptime: {"status": "UP", "code": 200}
-Sun Mar 16 14:09:16 2025 - response_time: {"status": "UP", "response_time": 657.9}
-Sun Mar 16 14:09:16 2025 - uptime: {"status": "UP", "code": 200}
-Sun Mar 16 14:09:18 2025 - uptime: {"status": "UP", "code": 200}
-Tue Mar 25 15:00:51 2025 - uptime: {"status": "UP", "code": 200}
-Tue Mar 25 15:00:52 2025 - response_time: {"status": "UP", "response_time": 617.67}
-Tue Mar 25 15:00:53 2025 - uptime: {"status": "UP", "code": 200}
-Tue Mar 25 15:00:54 2025 - uptime: {"status": "UP", "code": 200}
-Tue Mar 25 15:00:56 2025 - response_time: {"status": "UP", "response_time": 583.39}
-Tue Mar 25 15:00:56 2025 - uptime: {"status": "UP", "code": 200}
-Tue Mar 25 15:00:58 2025 - uptime: {"status": "UP", "code": 200}
-Tue Mar 25 15:01:00 2025 - response_time: {"status": "UP", "response_time": 625.88}
-Tue Mar 25 15:01:00 2025 - uptime: {"status": "UP", "code": 200}
-Tue Mar 25 15:01:02 2025 - uptime: {"status": "UP", "code": 200}
-Tue Mar 25 15:01:04 2025 - response_time: {"status": "UP", "response_time": 622.26}
-Tue Mar 25 15:01:04 2025 - uptime: {"status": "UP", "code": 200}
+{"timestamp": "2025-03-26T19:51:46.160448", "check": "DNS Resolution", "result": {"url": "https://iitgn.ac.in/", "domain": "iitgn.ac.in", "resolved_ip": "4.213.170.54", "status": "REACHABLE"}}
+{"timestamp": "2025-03-26T19:51:47.449988", "check": "uptime", "result": {"status": "UP", "code": 200}}
+{"timestamp": "2025-03-26T19:52:11.396184", "check": "latency", "result": {"url": "https://iitgn.ac.in/", "ip": "4.213.170.54", "avg_latency_ms": null, "packet_loss_percent": 100, "status": "ERROR"}}
+{"timestamp": "2025-03-26T19:52:12.659290", "check": "response_time", "result": {"status": "UP", "response_time": 260.59}}
+{"timestamp": "2025-03-26T19:52:12.877904", "check": "uptime", "result": {"status": "UP", "code": 200}}
+{"timestamp": "2025-03-26T19:52:36.883685", "check": "latency", "result": {"url": "https://iitgn.ac.in/", "ip": "4.213.170.54", "avg_latency_ms": null, "packet_loss_percent": 100, "status": "ERROR"}}
+{"timestamp": "2025-03-26T19:52:38.186099", "check": "uptime", "result": {"status": "UP", "code": 200}}
+{"timestamp": "2025-03-26T19:52:38.427709", "check": "response_time", "result": {"status": "UP", "response_time": 241.61}}
+{"timestamp": "2025-03-26T19:53:02.394087", "check": "latency", "result": {"url": "https://iitgn.ac.in/", "ip": "4.213.170.54", "avg_latency_ms": null, "packet_loss_percent": 100, "status": "ERROR"}}
+{"timestamp": "2025-03-26T19:53:03.662664", "check": "uptime", "result": {"status": "UP", "code": 200}}
+{"timestamp": "2025-03-26T19:53:03.905860", "check": "response_time", "result": {"status": "UP", "response_time": 243.2}}
+{"timestamp": "2025-03-26T19:53:27.883740", "check": "latency", "result": {"url": "https://iitgn.ac.in/", "ip": "4.213.170.54", "avg_latency_ms": null, "packet_loss_percent": 100, "status": "ERROR"}}
+{"timestamp": "2025-03-26T19:53:29.154825", "check": "uptime", "result": {"status": "UP", "code": 200}}
+{"timestamp": "2025-03-26T19:53:29.442385", "check": "response_time", "result": {"status": "UP", "response_time": 281.43}}
+{"timestamp": "2025-03-26T19:53:53.391429", "check": "latency", "result": {"url": "https://iitgn.ac.in/", "ip": "4.213.170.54", "avg_latency_ms": null, "packet_loss_percent": 100, "status": "ERROR"}}
+{"timestamp": "2025-03-26T19:53:54.748741", "check": "uptime", "result": {"status": "UP", "code": 200}}
+{"timestamp": "2025-03-26T19:53:55.042638", "check": "response_time", "result": {"status": "UP", "response_time": 293.9}}
+{"timestamp": "2025-03-26T19:54:18.887355", "check": "latency", "result": {"url": "https://iitgn.ac.in/", "ip": "4.213.170.54", "avg_latency_ms": null, "packet_loss_percent": 100, "status": "ERROR"}}
+{"timestamp": "2025-03-26T19:54:20.225145", "check": "uptime", "result": {"status": "UP", "code": 200}}
+{"timestamp": "2025-03-26T19:54:20.443791", "check": "response_time", "result": {"status": "UP", "response_time": 217.34}}
+{"timestamp": "2025-03-26T19:54:44.386480", "check": "latency", "result": {"url": "https://iitgn.ac.in/", "ip": "4.213.170.54", "avg_latency_ms": null, "packet_loss_percent": 100, "status": "ERROR"}}
+{"timestamp": "2025-03-26T19:54:45.634102", "check": "uptime", "result": {"status": "UP", "code": 200}}
+{"timestamp": "2025-03-26T19:54:45.885163", "check": "response_time", "result": {"status": "UP", "response_time": 250.0}}
+{"timestamp": "2025-03-26T19:55:09.896486", "check": "latency", "result": {"url": "https://iitgn.ac.in/", "ip": "4.213.170.54", "avg_latency_ms": null, "packet_loss_percent": 100, "status": "ERROR"}}
+{"timestamp": "2025-03-26T19:55:11.227552", "check": "uptime", "result": {"status": "UP", "code": 200}}
+{"timestamp": "2025-03-26T19:55:11.628700", "check": "response_time", "result": {"status": "UP", "response_time": 399.14}}
+{"timestamp": "2025-03-26T19:55:35.391764", "check": "latency", "result": {"url": "https://iitgn.ac.in/", "ip": "4.213.170.54", "avg_latency_ms": null, "packet_loss_percent": 100, "status": "ERROR"}}
+{"timestamp": "2025-03-26T19:55:36.688237", "check": "uptime", "result": {"status": "UP", "code": 200}}
+{"timestamp": "2025-03-26T19:55:36.998079", "check": "response_time", "result": {"status": "UP", "response_time": 305.68}}
+{"timestamp": "2025-03-26T19:56:00.895888", "check": "latency", "result": {"url": "https://iitgn.ac.in/", "ip": "4.213.170.54", "avg_latency_ms": null, "packet_loss_percent": 100, "status": "ERROR"}}
+{"timestamp": "2025-03-26T19:56:02.145662", "check": "uptime", "result": {"status": "UP", "code": 200}}
+{"timestamp": "2025-03-26T19:56:02.473831", "check": "response_time", "result": {"status": "UP", "response_time": 328.17}}
+{"timestamp": "2025-03-26T19:56:26.386968", "check": "latency", "result": {"url": "https://iitgn.ac.in/", "ip": "4.213.170.54", "avg_latency_ms": null, "packet_loss_percent": 100, "status": "ERROR"}}
+{"timestamp": "2025-03-26T19:56:27.612228", "check": "uptime", "result": {"status": "UP", "code": 200}}
+{"timestamp": "2025-03-26T19:56:27.841590", "check": "response_time", "result": {"status": "UP", "response_time": 228.61}}
+{"timestamp": "2025-03-26T19:56:41.765562", "check": "latency", "result": {"url": "https://iitgn.ac.in/", "ip": "4.213.170.54", "avg_latency_ms": null, "packet_loss_percent": 100, "status": "ERROR"}}
+{"timestamp": "2025-03-26T19:56:42.973600", "check": "uptime", "result": {"status": "UP", "code": 200}}
+{"timestamp": "2025-03-26T19:56:43.212482", "check": "response_time", "result": {"status": "UP", "response_time": 223.02}}

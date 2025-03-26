@@ -1,6 +1,9 @@
 {
-    "mysql_user": "root",
-    "mysql_password": "********",
-    "max_downtime": 3,
+    "max_downtime": 10,
+    "max_response_time": 500,
+    "max_latency_ms": 100,
+    "max_packet_loss_percent": 50,
     "alert_email": "cimf.cs331@gmail.com"
 }
+
+  
