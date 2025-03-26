@@ -66,3 +66,38 @@ python run_log_to_db.py
 cd alerts
 python alert_manager.py your_mysql_username your_mysql_password
 ```  
+
+## ⚙️ Implementation Details
+
+At present, our **Critical Infrastructure Monitoring Framework** operates in multiple phases, where each component runs independently in sequence. The process follows these steps:
+
+#### Step 1: Start Monitoring  
+The monitoring script is executed for a specific website, collecting key metrics such as **uptime, response time, latency, and DNS resolution**.
+
+```bash
+python monitor.py website_url
+```
+- This script performs periodic checks and logs the results into a file (`logs/monitor.log`).
+- Log entries are stored in **JSON format**, containing timestamps, status codes, and response times.
+
+#### Step 2: Log Monitoring Results to Database  
+After monitoring, the logged data is processed and stored in the **MySQL database** using:
+
+```bash
+python run_log_to_db.py
+```
+- The script reads `monitor.log`, parses each entry, and calls `log_to_db.py` to insert the data into structured database tables.
+- Key metrics such as **latency, uptime, and response time** are stored for analysis.
+
+#### Step 3: Start Alert Manager for Real-Time Alerts  
+To detect critical failures and notify administrators, the **Alert Manager** is executed:
+
+```bash
+cd alerts  
+python alert_manager.py <mysql_user> <mysql_password>
+```
+- This script continuously queries the database for **abnormal conditions** (e.g., downtime, high packet loss).
+- If an issue is detected, it **triggers alerts** via email.
+
+
+
