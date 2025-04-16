@@ -1,0 +1,90 @@
+{"timestamp": "2025-04-16T16:48:39.297417", "check": "dns_resolution", "result": {"url": "https://ims.iitgn.ac.in/index.html", "domain": "ims.iitgn.ac.in", "resolved_ip": "10.0.137.79", "status": "PRIVATE_IP"}}
+{"timestamp": "2025-04-16T16:48:44.403872", "check": "uptime", "result": {"url": "https://ims.iitgn.ac.in/index.html", "status_code": 200, "status": "UP"}}
+{"timestamp": "2025-04-16T16:48:49.449851", "check": "response_time", "result": {"url": "https://ims.iitgn.ac.in/index.html", "response_time_seconds": "0.04", "status_code": 200, "status": "OK"}}
+{"timestamp": "2025-04-16T16:48:49.564801", "check": "uptime", "result": {"url": "https://ims.iitgn.ac.in/index.html", "status_code": 200, "status": "UP"}}
+{"timestamp": "2025-04-16T16:48:56.666756", "check": "latency", "result": {"url": "https://ims.iitgn.ac.in/index.html", "ip": "10.0.137.79", "avg_latency_ms": 5.0, "packet_loss_percent": 0.0, "status": "OK"}}
+{"timestamp": "2025-04-16T16:48:56.712899", "check": "uptime", "result": {"url": "https://ims.iitgn.ac.in/index.html", "status_code": 200, "status": "UP"}}
+{"timestamp": "2025-04-16T16:48:59.753393", "check": "performance", "result": {"url": "https://ims.iitgn.ac.in/index.html", "total_time_seconds": "0.03", "ttfb_seconds": "0.03", "content_download_time_seconds": "-0.00", "content_length_bytes": 4552, "status_code": 200, "status": "OK"}}
+{"timestamp": "2025-04-16T16:48:59.787429", "check": "response_time", "result": {"url": "https://ims.iitgn.ac.in/index.html", "response_time_seconds": "0.03", "status_code": 200, "status": "OK"}}
+{"timestamp": "2025-04-16T16:49:01.856407", "check": "uptime", "result": {"url": "https://ims.iitgn.ac.in/index.html", "status_code": 200, "status": "UP"}}
+{"timestamp": "2025-04-16T16:49:06.978517", "check": "uptime", "result": {"url": "https://ims.iitgn.ac.in/index.html", "status_code": 200, "status": "UP"}}
+{"timestamp": "2025-04-16T16:49:10.043591", "check": "protocol", "result": {"url": "https://ims.iitgn.ac.in/index.html", "protocol": "HTTP/1.1", "status_code": 200, "status": "OK"}}
+{"timestamp": "2025-04-16T16:49:10.077166", "check": "status_headers", "result": {"url": "https://ims.iitgn.ac.in/index.html", "status_code": 200, "content_type": "text/html", "cache_control": "Not Available", "x_request_id": "Not Available", "status": "OK"}}
+{"timestamp": "2025-04-16T16:49:10.117867", "check": "errors", "result": {"url": "https://ims.iitgn.ac.in/index.html", "status_code": 200, "error_type": "NONE", "status": "OK"}}
+{"timestamp": "2025-04-16T16:49:10.150060", "check": "response_time", "result": {"url": "https://ims.iitgn.ac.in/index.html", "response_time_seconds": "0.03", "status_code": 200, "status": "OK"}}
+{"timestamp": "2025-04-16T16:49:14.208192", "check": "latency", "result": {"url": "https://ims.iitgn.ac.in/index.html", "ip": "10.0.137.79", "avg_latency_ms": 3.0, "packet_loss_percent": 0.0, "status": "OK"}}
+{"timestamp": "2025-04-16T16:49:14.275171", "check": "uptime", "result": {"url": "https://ims.iitgn.ac.in/index.html", "status_code": 200, "status": "UP"}}
+{"timestamp": "2025-04-16T16:49:19.316703", "check": "uptime", "result": {"url": "https://ims.iitgn.ac.in/index.html", "status_code": 200, "status": "UP"}}
+{"timestamp": "2025-04-16T16:49:20.360021", "check": "performance", "result": {"url": "https://ims.iitgn.ac.in/index.html", "total_time_seconds": "0.04", "ttfb_seconds": "0.04", "content_download_time_seconds": "-0.00", "content_length_bytes": 4552, "status_code": 200, "status": "OK"}}
+{"timestamp": "2025-04-16T16:49:20.389266", "check": "response_time", "result": {"url": "https://ims.iitgn.ac.in/index.html", "response_time_seconds": "0.03", "status_code": 200, "status": "OK"}}
+{"timestamp": "2025-04-16T16:49:24.532992", "check": "uptime", "result": {"url": "https://ims.iitgn.ac.in/index.html", "status_code": 200, "status": "UP"}}
+{"timestamp": "2025-04-16T16:49:31.592860", "check": "latency", "result": {"url": "https://ims.iitgn.ac.in/index.html", "ip": "10.0.137.79", "avg_latency_ms": 5.0, "packet_loss_percent": 0.0, "status": "OK"}}
+{"timestamp": "2025-04-16T16:49:31.637814", "check": "uptime", "result": {"url": "https://ims.iitgn.ac.in/index.html", "status_code": 200, "status": "UP"}}
+{"timestamp": "2025-04-16T16:49:32.677544", "check": "response_time", "result": {"url": "https://ims.iitgn.ac.in/index.html", "response_time_seconds": "0.03", "status_code": 200, "status": "OK"}}
+{"timestamp": "2025-04-16T16:49:36.731968", "check": "uptime", "result": {"url": "https://ims.iitgn.ac.in/index.html", "status_code": 200, "status": "UP"}}
+{"timestamp": "2025-04-16T16:49:39.851487", "check": "ssl", "result": {"url": "https://ims.iitgn.ac.in/index.html", "ssl_valid": true, "expiry_date": "2026-01-19T23:59:59", "handshake_time_seconds": "0.11", "status": "OK"}}
+{"timestamp": "2025-04-16T16:49:40.895306", "check": "protocol", "result": {"url": "https://ims.iitgn.ac.in/index.html", "protocol": "HTTP/1.1", "status_code": 200, "status": "OK"}}
+{"timestamp": "2025-04-16T16:49:41.140810", "check": "status_headers", "result": {"url": "https://ims.iitgn.ac.in/index.html", "status_code": 200, "content_type": "text/html", "cache_control": "Not Available", "x_request_id": "Not Available", "status": "OK"}}
+{"timestamp": "2025-04-16T16:49:41.208761", "check": "errors", "result": {"url": "https://ims.iitgn.ac.in/index.html", "status_code": 200, "error_type": "NONE", "status": "OK"}}
+{"timestamp": "2025-04-16T16:49:41.255307", "check": "performance", "result": {"url": "https://ims.iitgn.ac.in/index.html", "total_time_seconds": "0.04", "ttfb_seconds": "0.04", "content_download_time_seconds": "0.00", "content_length_bytes": 4552, "status_code": 200, "status": "OK"}}
+{"timestamp": "2025-04-16T16:49:42.300433", "check": "uptime", "result": {"url": "https://ims.iitgn.ac.in/index.html", "status_code": 200, "status": "UP"}}
+{"timestamp": "2025-04-16T16:49:43.399207", "check": "response_time", "result": {"url": "https://ims.iitgn.ac.in/index.html", "response_time_seconds": "0.10", "status_code": 200, "status": "OK"}}
+{"timestamp": "2025-04-16T16:49:49.458294", "check": "latency", "result": {"url": "https://ims.iitgn.ac.in/index.html", "ip": "10.0.137.79", "avg_latency_ms": 6.0, "packet_loss_percent": 0.0, "status": "OK"}}
+{"timestamp": "2025-04-16T16:49:49.501426", "check": "uptime", "result": {"url": "https://ims.iitgn.ac.in/index.html", "status_code": 200, "status": "UP"}}
+{"timestamp": "2025-04-16T16:49:53.562290", "check": "response_time", "result": {"url": "https://ims.iitgn.ac.in/index.html", "response_time_seconds": "0.06", "status_code": 200, "status": "OK"}}
+{"timestamp": "2025-04-16T16:49:54.616046", "check": "uptime", "result": {"url": "https://ims.iitgn.ac.in/index.html", "status_code": 200, "status": "UP"}}
+{"timestamp": "2025-04-16T16:49:59.672078", "check": "uptime", "result": {"url": "https://ims.iitgn.ac.in/index.html", "status_code": 200, "status": "UP"}}
+{"timestamp": "2025-04-16T16:50:01.710279", "check": "performance", "result": {"url": "https://ims.iitgn.ac.in/index.html", "total_time_seconds": "0.03", "ttfb_seconds": "0.03", "content_download_time_seconds": "0.00", "content_length_bytes": 4552, "status_code": 200, "status": "OK"}}
+{"timestamp": "2025-04-16T16:50:03.759140", "check": "response_time", "result": {"url": "https://ims.iitgn.ac.in/index.html", "response_time_seconds": "0.04", "status_code": 200, "status": "OK"}}
+{"timestamp": "2025-04-16T16:50:06.804531", "check": "latency", "result": {"url": "https://ims.iitgn.ac.in/index.html", "ip": "10.0.137.79", "avg_latency_ms": 4.0, "packet_loss_percent": 0.0, "status": "OK"}}
+{"timestamp": "2025-04-16T16:50:06.847992", "check": "uptime", "result": {"url": "https://ims.iitgn.ac.in/index.html", "status_code": 200, "status": "UP"}}
+{"timestamp": "2025-04-16T16:50:11.893414", "check": "protocol", "result": {"url": "https://ims.iitgn.ac.in/index.html", "protocol": "HTTP/1.1", "status_code": 200, "status": "OK"}}
+{"timestamp": "2025-04-16T16:50:12.040523", "check": "status_headers", "result": {"url": "https://ims.iitgn.ac.in/index.html", "status_code": 200, "content_type": "text/html", "cache_control": "Not Available", "x_request_id": "Not Available", "status": "OK"}}
+{"timestamp": "2025-04-16T16:50:12.102157", "check": "errors", "result": {"url": "https://ims.iitgn.ac.in/index.html", "status_code": 200, "error_type": "NONE", "status": "OK"}}
+{"timestamp": "2025-04-16T16:50:12.249360", "check": "uptime", "result": {"url": "https://ims.iitgn.ac.in/index.html", "status_code": 200, "status": "UP"}}
+{"timestamp": "2025-04-16T16:50:14.298900", "check": "response_time", "result": {"url": "https://ims.iitgn.ac.in/index.html", "response_time_seconds": "0.04", "status_code": 200, "status": "OK"}}
+{"timestamp": "2025-04-16T16:50:17.347557", "check": "uptime", "result": {"url": "https://ims.iitgn.ac.in/index.html", "status_code": 200, "status": "UP"}}
+{"timestamp": "2025-04-16T16:50:22.408851", "check": "performance", "result": {"url": "https://ims.iitgn.ac.in/index.html", "total_time_seconds": "0.06", "ttfb_seconds": "0.06", "content_download_time_seconds": "0.00", "content_length_bytes": 4552, "status_code": 200, "status": "OK"}}
+{"timestamp": "2025-04-16T16:50:24.452274", "check": "latency", "result": {"url": "https://ims.iitgn.ac.in/index.html", "ip": "10.0.137.79", "avg_latency_ms": 5.0, "packet_loss_percent": 0.0, "status": "OK"}}
+{"timestamp": "2025-04-16T16:50:24.464687", "check": "uptime", "result": {"url": "https://ims.iitgn.ac.in/index.html", "status_code": 200, "status": "UP"}}
+{"timestamp": "2025-04-16T16:50:25.517506", "check": "response_time", "result": {"url": "https://ims.iitgn.ac.in/index.html", "response_time_seconds": "0.04", "status_code": 200, "status": "OK"}}
+{"timestamp": "2025-04-16T16:50:29.610510", "check": "uptime", "result": {"url": "https://ims.iitgn.ac.in/index.html", "status_code": 200, "status": "UP"}}
+{"timestamp": "2025-04-16T16:50:34.733361", "check": "uptime", "result": {"url": "https://ims.iitgn.ac.in/index.html", "status_code": 200, "status": "UP"}}
+{"timestamp": "2025-04-16T16:50:35.828451", "check": "response_time", "result": {"url": "https://ims.iitgn.ac.in/index.html", "response_time_seconds": "0.09", "status_code": 200, "status": "OK"}}
+{"timestamp": "2025-04-16T16:50:41.893202", "check": "latency", "result": {"url": "https://ims.iitgn.ac.in/index.html", "ip": "10.0.137.79", "avg_latency_ms": 6.0, "packet_loss_percent": 0.0, "status": "OK"}}
+{"timestamp": "2025-04-16T16:50:41.943226", "check": "uptime", "result": {"url": "https://ims.iitgn.ac.in/index.html", "status_code": 200, "status": "UP"}}
+{"timestamp": "2025-04-16T16:50:43.018308", "check": "ssl", "result": {"url": "https://ims.iitgn.ac.in/index.html", "ssl_valid": true, "expiry_date": "2026-01-19T23:59:59", "handshake_time_seconds": "0.07", "status": "OK"}}
+{"timestamp": "2025-04-16T16:50:43.086305", "check": "protocol", "result": {"url": "https://ims.iitgn.ac.in/index.html", "protocol": "HTTP/1.1", "status_code": 200, "status": "OK"}}
+{"timestamp": "2025-04-16T16:50:43.139426", "check": "status_headers", "result": {"url": "https://ims.iitgn.ac.in/index.html", "status_code": 200, "content_type": "text/html", "cache_control": "Not Available", "x_request_id": "Not Available", "status": "OK"}}
+{"timestamp": "2025-04-16T16:50:43.191562", "check": "errors", "result": {"url": "https://ims.iitgn.ac.in/index.html", "status_code": 200, "error_type": "NONE", "status": "OK"}}
+{"timestamp": "2025-04-16T16:50:43.250432", "check": "performance", "result": {"url": "https://ims.iitgn.ac.in/index.html", "total_time_seconds": "0.06", "ttfb_seconds": "0.05", "content_download_time_seconds": "0.00", "content_length_bytes": 4552, "status_code": 200, "status": "OK"}}
+{"timestamp": "2025-04-16T16:50:46.292835", "check": "response_time", "result": {"url": "https://ims.iitgn.ac.in/index.html", "response_time_seconds": "0.04", "status_code": 200, "status": "OK"}}
+{"timestamp": "2025-04-16T16:50:47.342070", "check": "uptime", "result": {"url": "https://ims.iitgn.ac.in/index.html", "status_code": 200, "status": "UP"}}
+{"timestamp": "2025-04-16T16:50:52.400467", "check": "uptime", "result": {"url": "https://ims.iitgn.ac.in/index.html", "status_code": 200, "status": "UP"}}
+{"timestamp": "2025-04-16T16:50:56.488437", "check": "response_time", "result": {"url": "https://ims.iitgn.ac.in/index.html", "response_time_seconds": "0.08", "status_code": 200, "status": "OK"}}
+{"timestamp": "2025-04-16T16:50:59.528280", "check": "latency", "result": {"url": "https://ims.iitgn.ac.in/index.html", "ip": "10.0.137.79", "avg_latency_ms": 5.0, "packet_loss_percent": 0.0, "status": "OK"}}
+{"timestamp": "2025-04-16T16:50:59.561818", "check": "uptime", "result": {"url": "https://ims.iitgn.ac.in/index.html", "status_code": 200, "status": "UP"}}
+{"timestamp": "2025-04-16T16:51:03.616393", "check": "performance", "result": {"url": "https://ims.iitgn.ac.in/index.html", "total_time_seconds": "0.04", "ttfb_seconds": "0.04", "content_download_time_seconds": "0.00", "content_length_bytes": 4552, "status_code": 200, "status": "OK"}}
+{"timestamp": "2025-04-16T16:51:04.671587", "check": "uptime", "result": {"url": "https://ims.iitgn.ac.in/index.html", "status_code": 200, "status": "UP"}}
+{"timestamp": "2025-04-16T16:51:06.722899", "check": "response_time", "result": {"url": "https://ims.iitgn.ac.in/index.html", "response_time_seconds": "0.04", "status_code": 200, "status": "OK"}}
+{"timestamp": "2025-04-16T16:51:09.762212", "check": "uptime", "result": {"url": "https://ims.iitgn.ac.in/index.html", "status_code": 200, "status": "UP"}}
+{"timestamp": "2025-04-16T16:51:13.821240", "check": "protocol", "result": {"url": "https://ims.iitgn.ac.in/index.html", "protocol": "HTTP/1.1", "status_code": 200, "status": "OK"}}
+{"timestamp": "2025-04-16T16:51:13.878905", "check": "status_headers", "result": {"url": "https://ims.iitgn.ac.in/index.html", "status_code": 200, "content_type": "text/html", "cache_control": "Not Available", "x_request_id": "Not Available", "status": "OK"}}
+{"timestamp": "2025-04-16T16:51:13.945011", "check": "errors", "result": {"url": "https://ims.iitgn.ac.in/index.html", "status_code": 200, "error_type": "NONE", "status": "OK"}}
+{"timestamp": "2025-04-16T16:51:17.012690", "check": "latency", "result": {"url": "https://ims.iitgn.ac.in/index.html", "ip": "10.0.137.79", "avg_latency_ms": 5.0, "packet_loss_percent": 0.0, "status": "OK"}}
+{"timestamp": "2025-04-16T16:51:17.062330", "check": "uptime", "result": {"url": "https://ims.iitgn.ac.in/index.html", "status_code": 200, "status": "UP"}}
+{"timestamp": "2025-04-16T16:51:18.113351", "check": "response_time", "result": {"url": "https://ims.iitgn.ac.in/index.html", "response_time_seconds": "0.04", "status_code": 200, "status": "OK"}}
+{"timestamp": "2025-04-16T16:51:22.216987", "check": "uptime", "result": {"url": "https://ims.iitgn.ac.in/index.html", "status_code": 200, "status": "UP"}}
+{"timestamp": "2025-04-16T16:51:24.265818", "check": "performance", "result": {"url": "https://ims.iitgn.ac.in/index.html", "total_time_seconds": "0.05", "ttfb_seconds": "0.05", "content_download_time_seconds": "-0.00", "content_length_bytes": 4552, "status_code": 200, "status": "OK"}}
+{"timestamp": "2025-04-16T16:51:27.347880", "check": "uptime", "result": {"url": "https://ims.iitgn.ac.in/index.html", "status_code": 200, "status": "UP"}}
+{"timestamp": "2025-04-16T16:51:28.393046", "check": "response_time", "result": {"url": "https://ims.iitgn.ac.in/index.html", "response_time_seconds": "0.04", "status_code": 200, "status": "OK"}}
+{"timestamp": "2025-04-16T16:51:34.437262", "check": "latency", "result": {"url": "https://ims.iitgn.ac.in/index.html", "ip": "10.0.137.79", "avg_latency_ms": 7.0, "packet_loss_percent": 0.0, "status": "OK"}}
+{"timestamp": "2025-04-16T16:51:34.477824", "check": "uptime", "result": {"url": "https://ims.iitgn.ac.in/index.html", "status_code": 200, "status": "UP"}}
+{"timestamp": "2025-04-16T16:51:38.526979", "check": "response_time", "result": {"url": "https://ims.iitgn.ac.in/index.html", "response_time_seconds": "0.04", "status_code": 200, "status": "OK"}}
+{"timestamp": "2025-04-16T16:51:39.595127", "check": "uptime", "result": {"url": "https://ims.iitgn.ac.in/index.html", "status_code": 200, "status": "UP"}}
+{"timestamp": "2025-04-16T16:51:43.759119", "check": "ssl", "result": {"url": "https://ims.iitgn.ac.in/index.html", "ssl_valid": true, "expiry_date": "2026-01-19T23:59:59", "handshake_time_seconds": "0.16", "status": "OK"}}
+{"timestamp": "2025-04-16T16:51:44.836777", "check": "protocol", "result": {"url": "https://ims.iitgn.ac.in/index.html", "protocol": "HTTP/1.1", "status_code": 200, "status": "OK"}}
+{"timestamp": "2025-04-16T16:51:44.872661", "check": "status_headers", "result": {"url": "https://ims.iitgn.ac.in/index.html", "status_code": 200, "content_type": "text/html", "cache_control": "Not Available", "x_request_id": "Not Available", "status": "OK"}}
+{"timestamp": "2025-04-16T16:51:44.903132", "check": "errors", "result": {"url": "https://ims.iitgn.ac.in/index.html", "status_code": 200, "error_type": "NONE", "status": "OK"}}
+{"timestamp": "2025-04-16T16:51:44.951393", "check": "performance", "result": {"url": "https://ims.iitgn.ac.in/index.html", "total_time_seconds": "0.03", "ttfb_seconds": "0.03", "content_download_time_seconds": "0.00", "content_length_bytes": 4552, "status_code": 200, "status": "OK"}}
+{"timestamp": "2025-04-16T16:51:45.004738", "check": "uptime", "result": {"url": "https://ims.iitgn.ac.in/index.html", "status_code": 200, "status": "UP"}}

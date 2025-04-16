@@ -1,20 +1,17 @@
-import requests
+# scripts/uptime.py
+from .utils import make_request
 
 def check_uptime(url):
-    """Checks the uptime of a given URL."""
-    try:
-        response = requests.get(url, timeout=5)
-        print(f"Uptime Check: {url} -> Status Code: {response.status_code}")  # Debug print
-        return {"url": url, "status": "UP" if response.ok else "DOWN", "code": response.status_code}
-    except requests.exceptions.RequestException as e:
-        print(f"Uptime Check Failed: {url} -> {e}")  # Debug print
-        return {"url": url, "status": "DOWN", "code": None}
+    """Checks the uptime of a given URL by checking the HTTP status code."""
+    response = make_request(url)
+    if response:
+        return {"url": url, "status_code": response.status_code, "status": "UP" if response.ok else "DOWN"}
+    return {"url": url, "status_code": None, "status": "DOWN"}
 
 if __name__ == "__main__":
     import sys
     if len(sys.argv) != 2:
-        print("Usage: python uptime.py <web_portal_url>")
+        print("Usage: python uptime.py <url>")
         sys.exit(1)
-
-    web_portal_url = sys.argv[1]
-    print(check_uptime(web_portal_url))
+    url_to_check = sys.argv[1]
+    print(check_uptime(url_to_check))

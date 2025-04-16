@@ -1,7 +1,15 @@
 {
-    "max_downtime": 10,
-    "max_response_time": 500,
-    "max_latency_ms": 100,
-    "max_packet_loss_percent": 50,
+    "max_downtime_warning": 5,
+    "max_downtime_critical": 10,
+    "max_response_time_warning": 300,
+    "max_response_time_critical": 500,
+    "max_latency_ms_warning": 75,
+    "max_latency_ms_critical": 150,
+    "max_packet_loss_percent_warning": 15,
+    "max_packet_loss_percent_critical": 30,
+    "max_handshake_time_seconds_warning": 1.0,
+    "max_handshake_time_seconds_critical": 2.5,
+    "min_ssl_expiry_days_warning": 60,
+    "min_ssl_expiry_days_critical": 30,
     "alert_email": "cimf.cs331@gmail.com"
-}
+  }

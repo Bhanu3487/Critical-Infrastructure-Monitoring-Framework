@@ -27,6 +27,7 @@ def create_tables(user, password):
     CREATE TABLE IF NOT EXISTS uptime_logs (
         id INT AUTO_INCREMENT PRIMARY KEY,
         timestamp DATETIME DEFAULT CURRENT_TIMESTAMP,
+        url VARCHAR(255),
         status VARCHAR(10),
         code INT
     )
@@ -37,8 +38,10 @@ def create_tables(user, password):
     CREATE TABLE IF NOT EXISTS response_time_logs (
         id INT AUTO_INCREMENT PRIMARY KEY,
         timestamp DATETIME DEFAULT CURRENT_TIMESTAMP,
+        url VARCHAR(255),
+        response_time FLOAT,
         status VARCHAR(10),
-        response_time FLOAT
+        code INT
     )
     """)
 
@@ -50,7 +53,7 @@ def create_tables(user, password):
         url VARCHAR(255),
         ip VARCHAR(45),
         avg_latency_ms FLOAT,
-        packet_loss_percent INT,
+        packet_loss_percent FLOAT,
         status VARCHAR(20)
     )
     """)
@@ -63,11 +66,78 @@ def create_tables(user, password):
         url VARCHAR(255),
         domain VARCHAR(255),
         resolved_ip VARCHAR(45),
+        status VARCHAR(20),
+        connectivity VARCHAR(20)
+    )
+    """)
+
+    # Table for performance logs
+    cursor.execute("""
+    CREATE TABLE IF NOT EXISTS performance_logs (
+        id INT AUTO_INCREMENT PRIMARY KEY,
+        timestamp DATETIME DEFAULT CURRENT_TIMESTAMP,
+        url VARCHAR(255),
+        total_time_seconds FLOAT,
+        ttfb_seconds FLOAT,
+        content_download_time_seconds FLOAT,
+        content_length_bytes INT,
+        status_code INT,
+        status VARCHAR(10)
+    )
+    """)
+
+    # Table for protocol logs
+    cursor.execute("""
+    CREATE TABLE IF NOT EXISTS protocol_logs (
+        id INT AUTO_INCREMENT PRIMARY KEY,
+        timestamp DATETIME DEFAULT CURRENT_TIMESTAMP,
+        url VARCHAR(255),
+        protocol VARCHAR(10),
+        status_code INT,
+        status VARCHAR(10)
+    )
+    """)
+
+    # Table for SSL logs
+    cursor.execute("""
+    CREATE TABLE IF NOT EXISTS ssl_logs (
+        id INT AUTO_INCREMENT PRIMARY KEY,
+        timestamp DATETIME DEFAULT CURRENT_TIMESTAMP,
+        url VARCHAR(255),
+        ssl_valid BOOLEAN,
+        expiry_date DATETIME,
+        handshake_time_seconds FLOAT,
         status VARCHAR(20)
     )
     """)
 
-    # Table for tracking last processed timestamp
+    # Table for status and headers logs
+    cursor.execute("""
+    CREATE TABLE IF NOT EXISTS status_headers_logs (
+        id INT AUTO_INCREMENT PRIMARY KEY,
+        timestamp DATETIME DEFAULT CURRENT_TIMESTAMP,
+        url VARCHAR(255),
+        status_code INT,
+        content_type VARCHAR(255),
+        cache_control VARCHAR(255),
+        x_request_id VARCHAR(255),
+        status VARCHAR(10)
+    )
+    """)
+
+    # Table for error logs
+    cursor.execute("""
+    CREATE TABLE IF NOT EXISTS error_logs (
+        id INT AUTO_INCREMENT PRIMARY KEY,
+        timestamp DATETIME DEFAULT CURRENT_TIMESTAMP,
+        url VARCHAR(255),
+        status_code INT,
+        error_type VARCHAR(20),
+        status VARCHAR(10)
+    )
+    """)
+
+    # Table for tracking last processed timestamp (keeping this)
     cursor.execute("""
     CREATE TABLE IF NOT EXISTS last_processed (
         id INT PRIMARY KEY DEFAULT 1,
@@ -75,8 +145,7 @@ def create_tables(user, password):
     )
     """)
 
-
-    # Initialize the last processed timestamp if not exists
+    # Initialize the last processed timestamp if not exists (keeping this)
     cursor.execute("INSERT IGNORE INTO last_processed (id) VALUES (1)")
 
     conn.commit()
